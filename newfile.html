@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box">
+    </div>
+</body>
+</html>
+<script>
+   const container = document.getElementById('box')
+    console.log(container)
+    container.style.width = '300px'
+    container.style.height = '300px'
+    container.style.border = '2px solid red'
+    const a = document.createElement('h1')
+    a.innerText = 'Hello Students'
+    console.log(a)
+    container.appendChild (a)
+
+    /*const pera = document.createElement('p')
+     console.log(pera)
+     pera.innerText = 'Hello I am Peragraph created by Dom'
+     document.body.append(a,pera)*/
+</script>
+ 

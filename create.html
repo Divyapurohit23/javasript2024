@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    const container = document.createElement ('div')
+    container.style.width = '500px'
+     container.style.height = '500px'
+     container.style.border = '5px solid red'
+     console.log(container)
+     const heading1 = document.createElement ('h1')
+     heading1.innerText = 'Indore'
+     const para1 = document.createElement ('p')
+     para1.innerText = 'Indore is also called mini mumbai'
+     const heading2 = document.createElement ('h2')
+     heading2.innerText = 'Bhopal'
+      const para2 = document.createElement ('p')
+     para2.innerText = 'Bhopal is a city of lakes'
+     container.append(heading1,para1,heading2,para2)
+     document.body.append(container)
+
+</script>
